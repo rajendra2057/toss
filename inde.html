@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--  Adding tailwind css script -->
+    <title>Coin Toss Web</title>
+  </head>
+  <body>
+    <h1 class="text-5xl text-center mt-20" id="result">Coin Toss Web</h1>
+
+    <div class="flex items-center justify-center">
+      <!-- Making all the content of Div in center -->
+      <img
+        id="loading"
+        class="mt-40 hidden"
+        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExenprNTc3ZnB2cW03a3N1NjU5ZmtvcnN1bDQ5azZ3a2x0Z3Rrc281dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8MWdaFQEYEicGIkfHU/giphy.webp"
+        alt="No Image"
+        srcset=""
+      />
+      <button
+        id="btn"
+        class="mt-6 text-3xl bg-black text-white px-12 py-2 rounded-xl hover:scale-105"
+        onclick="tossHandler()"
+      >
+        Toss
+      </button>
+    </div>
+
+    <script src="app.js"></script>
+    <!-- linking javascript -->
+  </body>
+</html>
